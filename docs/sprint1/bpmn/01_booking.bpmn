@@ -416,4 +416,40 @@
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram id="Diagram_s7">
+    <bpmndi:BPMNPlane id="Plane_s7" bpmnElement="s7">
+
+      <bpmndi:BPMNShape id="DI_s7_s" bpmnElement="s7_s">
+        <dc:Bounds x="100" y="122" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+
+      <bpmndi:BPMNShape id="DI_s7_a" bpmnElement="s7_a">
+        <dc:Bounds x="190" y="100" width="140" height="80"/>
+      </bpmndi:BPMNShape>
+
+      <bpmndi:BPMNShape id="DI_s7_b" bpmnElement="s7_b">
+        <dc:Bounds x="390" y="100" width="140" height="80"/>
+      </bpmndi:BPMNShape>
+
+      <bpmndi:BPMNShape id="DI_s7_e" bpmnElement="s7_e">
+        <dc:Bounds x="590" y="122" width="36" height="36"/>
+      </bpmndi:BPMNShape>
+
+      <bpmndi:BPMNEdge id="DI_s7_flow0" bpmnElement="s7_flow0">
+        <di:waypoint x="136" y="140"/>
+        <di:waypoint x="190" y="140"/>
+      </bpmndi:BPMNEdge>
+
+      <bpmndi:BPMNEdge id="DI_s7_flow1" bpmnElement="s7_flow1">
+        <di:waypoint x="330" y="140"/>
+        <di:waypoint x="390" y="140"/>
+      </bpmndi:BPMNEdge>
+
+      <bpmndi:BPMNEdge id="DI_s7_flow2" bpmnElement="s7_flow2">
+        <di:waypoint x="530" y="140"/>
+        <di:waypoint x="590" y="140"/>
+      </bpmndi:BPMNEdge>
+
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
 </bpmn:definitions>
